@@ -1,0 +1,7 @@
+<p>hola soy la vista 1</p>
+<ul>
+    <li *ngFor="let numeros of lista">{{numeros}}</li>
+    <li *ngFor="let objetoNombre of listaN" [ngStyle]="{color:cambiaColor(objetoNombre.estado)}">{{objetoNombre.nombre}}</li>
+</ul>
+
+  
